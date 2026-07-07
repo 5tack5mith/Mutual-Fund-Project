@@ -1,3 +1,4 @@
 .ipynb_checkpoints/
 data/raw/
 data/*.db 
+data/db/*.db 
