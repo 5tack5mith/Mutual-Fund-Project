@@ -1,4 +1,11 @@
 .ipynb_checkpoints/
-data/raw/
-data/*.db 
-data/db/*.db 
+data/*.db
+data/db/*.db
+data/raw/axis_bluechip.csv
+data/raw/fund_master.csv
+data/raw/icici_bluechip.csv
+data/raw/kotak_bluechip.csv
+data/raw/nippon_large_cap.csv
+data/raw/sbi_bluechip.csv
+data/raw/sbi_small_cap.csv
+data/raw/sbi_small_cap_nav.csv
