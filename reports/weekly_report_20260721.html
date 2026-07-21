@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 20px; }
+        .container { max-width: 700px; margin: auto; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .header { background: #5B4FCF; color: white; padding: 30px; text-align: center; }
+        .header h1 { margin: 0; font-size: 24px; }
+        .header p { margin: 5px 0 0; opacity: 0.8; font-size: 14px; }
+        .section { padding: 25px 30px; border-bottom: 1px solid #eee; }
+        .section h2 { color: #5B4FCF; font-size: 16px; margin: 0 0 15px; }
+        .kpi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; }
+        .kpi { background: #f8f7ff; border-radius: 8px; padding: 15px; text-align: center; border-left: 4px solid #5B4FCF; }
+        .kpi-value { font-size: 22px; font-weight: bold; color: #5B4FCF; }
+        .kpi-label { font-size: 11px; color: #666; margin-top: 4px; }
+        table { width: 100%; border-collapse: collapse; font-size: 13px; }
+        th { background: #5B4FCF; color: white; padding: 10px; text-align: left; }
+        td { padding: 9px 10px; border-bottom: 1px solid #eee; }
+        tr:nth-child(even) { background: #f8f7ff; }
+        .risk { color: #e53e3e; font-weight: bold; }
+        .footer { background: #1E1E2E; color: #aaa; padding: 20px; text-align: center; font-size: 12px; }
+        .badge { display: inline-block; background: #F97316; color: white; padding: 2px 8px; border-radius: 4px; font-size: 11px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    
+    <div class="header">
+        <h1>📈 Bluestock MF Weekly Report</h1>
+        <p>Generated: Tuesday, 21 July 2026 | Data as of 29 May 2026</p>
+    </div>
+
+    <div class="section">
+        <h2>📊 Industry Snapshot</h2>
+        <div class="kpi-grid">
+            <div class="kpi">
+                <div class="kpi-value">₹31,002 Cr</div>
+                <div class="kpi-label">SIP Inflow (Dec 2025)</div>
+            </div>
+            <div class="kpi">
+                <div class="kpi-value">40</div>
+                <div class="kpi-label">Schemes Tracked</div>
+            </div>
+            <div class="kpi">
+                <div class="kpi-value">32,778</div>
+                <div class="kpi-label">Investor Transactions</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>🏆 Top 5 Funds This Week <span class="badge">By Composite Score</span></h2>
+        <table>
+            <tr>
+                <th>Fund</th>
+                <th>Score</th>
+                <th>3yr CAGR%</th>
+                <th>Sharpe</th>
+                <th>Max DD%</th>
+            </tr>
+            
+            <tr>
+                <td>ICICI Pru Midcap Fund - Regular - Growth</td>
+                <td><b>85.1</b></td>
+                <td>31.22%</td>
+                <td>0.883</td>
+                <td class="risk">-18.19%</td>
+            </tr>
+            
+            <tr>
+                <td>Axis Midcap Fund - Regular - Growth</td>
+                <td><b>82.0</b></td>
+                <td>36.21%</td>
+                <td>0.731</td>
+                <td class="risk">-20.96%</td>
+            </tr>
+            
+            <tr>
+                <td>HDFC Mid-Cap Opportunities Fund - Regular - G</td>
+                <td><b>80.5</b></td>
+                <td>32.37%</td>
+                <td>0.808</td>
+                <td class="risk">-16.22%</td>
+            </tr>
+            
+            <tr>
+                <td>Mirae Asset Large Cap Fund - Regular - Growth</td>
+                <td><b>80.0</b></td>
+                <td>33.95%</td>
+                <td>1.068</td>
+                <td class="risk">-11.27%</td>
+            </tr>
+            
+            <tr>
+                <td>Kotak Flexicap Fund - Regular - Growth</td>
+                <td><b>78.2</b></td>
+                <td>29.69%</td>
+                <td>0.966</td>
+                <td class="risk">-12.97%</td>
+            </tr>
+            
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>⚠️ Risk Alert — Highest VaR Funds</h2>
+        <table>
+            <tr>
+                <th>Fund</th>
+                <th>VaR 95%</th>
+                <th>CVaR 95%</th>
+            </tr>
+            
+            <tr>
+                <td>ABSL Small Cap Fund - Regular - Growth</td>
+                <td class="risk">-2.3915%</td>
+                <td class="risk">-3.0289%</td>
+            </tr>
+            
+            <tr>
+                <td>Axis Small Cap Fund - Regular - Growth</td>
+                <td class="risk">-2.3284%</td>
+                <td class="risk">-2.969%</td>
+            </tr>
+            
+            <tr>
+                <td>SBI Small Cap Fund - Direct Plan - Growth</td>
+                <td class="risk">-2.3155%</td>
+                <td class="risk">-3.0163%</td>
+            </tr>
+            
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>💡 Key Insights This Week</h2>
+        <ul style="font-size: 13px; color: #444; line-height: 1.8;">
+            <li>ICICI Pru Midcap leads the Fund Scorecard at <b>85.1</b> — best risk-return balance</li>
+            <li>SIP inflows reached <b>₹31,002 Cr</b> in Dec 2025 — industry momentum strong</li>
+            <li>Small Cap funds carry highest VaR — suitable only for high risk appetite investors</li>
+            <li>97.8% of investors show irregular SIP patterns — continuity intervention recommended</li>
+            <li>Axis Bluechip most concentrated portfolio (HHI ~3000) — sector risk elevated</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <p>Bluestock Fintech Pvt. Ltd. | Mutual Fund Analytics Platform</p>
+        <p>This report is auto-generated for internal use only. Not financial advice.</p>
+        <p>© 2026 Bluestock Fintech | Data Source: AMFI India, mfapi.in</p>
+    </div>
+
+</div>
+</body>
+</html>
